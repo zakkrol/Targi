@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz zamówień</title>
+</head>
+<body>
+    <h1>Formularz zamówień</h1>
+    <form id="orderForm">
+        <label for="nip">NIP klienta:</label>
+        <input type="text" id="nip" name="nip" required><br><br>
+
+        <label for="orderValue">Wartość zamówienia:</label>
+        <input type="number" id="orderValue" name="orderValue" required><br><br>
+
+        <button type="button" id="submitButton">Prześlij</button>
+    </form>
+    <p id="responseMessage"></p>
+    <script src="script.js"></script>
+</body>
+</html>
